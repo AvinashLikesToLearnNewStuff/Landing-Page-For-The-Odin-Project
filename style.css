@@ -1,6 +1,14 @@
+.body{
+    padding: 0 10%;
+    margin:0;
+}
+
 .container{
     display:flex;
     flex-direction:column;
+    width: 100%
+    margin 0;
+    padding: 0;
 }
 button{
     border-radius: 8px;
@@ -13,14 +21,19 @@ button{
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
+    display:flex;
+    /* width: 100%; */
+    flex: 1 1 auto;
 }
 .header h3{
     font-size: 24px;
     color: #F9faf8;
+    padding: 10px;
 }
-.header .links{
+.header .links a{
     align-self: center;
-    
+   text-decoration: none; 
+   
 }
 .header a{
    margin: 12px; 
@@ -30,19 +43,22 @@ button{
 
 .section-1{
 
-   padding: 0px 48px;  
+   padding: 40px 48px;  
    display: flex; 
     background-color: #1f2937;
 }
-.section-1{
 
-    display: flex;
+.section-1 img{
+    margin-left: 24px;
 }
+
 .hero-text h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9faf8;
+    margin-right: 24px;
 }
+
 .hero-text p{
 
     font-size: 18px;
@@ -57,6 +73,11 @@ button{
     display: flex;
    flex-wrap: wrap; 
    justify-content: center;
+   padding: 20px;
+   margin: 20px 0;
+}
+.section-2 img{
+    border-radius: 12px;
 }
 .section-2 h3{
 }
@@ -106,4 +127,5 @@ flex-direction: column;
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
+   color: #e5e7eb;
 }
