@@ -134,6 +134,9 @@ flex-direction: column;
     justify-content: center;
    color: #e5e7eb;
 }
+.call-to-action{
+    display: flex;
+}
 .call-to-action h4{
 
 
@@ -147,6 +150,12 @@ flex-direction: column;
     color: #e5e7eb;
     
 }
-.call-to-action button{
+.call-to-action ~ button{
+
+    margin: 2rem;
+    padding:2rem;
+    size: 2rem;
+    color: #e5e7eb;
     background-color: #3882f6;
+    border: 1px solid white;
 }
