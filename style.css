@@ -3,7 +3,7 @@
     padding: 0;
 }
 .body{
-    padding: 0 10%;
+    padding: 0 ;
     margin:0;
 }
 
@@ -146,4 +146,7 @@ flex-direction: column;
     font-size: 18px;
     color: #e5e7eb;
     
+}
+.call-to-action button{
+    background-color: #3882f6;
 }
