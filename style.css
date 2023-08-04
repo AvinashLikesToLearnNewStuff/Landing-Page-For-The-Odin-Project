@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .body{
     padding: 0 10%;
     margin:0;
@@ -24,6 +28,7 @@ button{
     display:flex;
     /* width: 100%; */
     flex: 1 1 auto;
+    width: 100% ;
 }
 .header h3{
     font-size: 24px;
@@ -128,4 +133,17 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
    color: #e5e7eb;
+}
+.call-to-action h4{
+
+
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+.call-to-action p{
+
+    font-size: 18px;
+    color: #e5e7eb;
+    
 }
