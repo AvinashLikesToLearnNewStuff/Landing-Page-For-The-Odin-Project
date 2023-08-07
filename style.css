@@ -2,17 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    padding: 0 ;
-    margin:0;
-}
 
 .container{
     display:flex;
     flex-direction:column;
     width: 100%
-    margin 0;
-    padding: 0;
 }
 button{
     border-radius: 8px;
@@ -26,9 +20,7 @@ button{
     align-items: center;
     justify-content: space-between;
     display:flex;
-    /* width: 100%; */
     flex: 1 1 auto;
-    width: 100% ;
 }
 .header h3{
     font-size: 24px;
@@ -72,6 +64,9 @@ button{
 .hero-text button{
     background-color: #3882f6;
     color: #e5e7eb;
+}
+.header button{
+display: flex;
 }
 /* some random information section */
 .section-2{
@@ -134,8 +129,14 @@ flex-direction: column;
     justify-content: center;
    color: #e5e7eb;
 }
+.background-color{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 .call-to-action{
     display: flex;
+    flex-direction: column;
 }
 .call-to-action h4{
 
@@ -151,10 +152,9 @@ flex-direction: column;
     
 }
 .call-to-action ~ button{
-
     margin: 2rem;
-    padding:2rem;
-    size: 2rem;
+    padding:0.5rem;
+    size: 0.5rem;
     color: #e5e7eb;
     background-color: #3882f6;
     border: 1px solid white;
